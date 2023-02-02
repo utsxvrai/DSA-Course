@@ -14,7 +14,7 @@ int main()
     {
         int bit= m & 1;
         ans= (bit * pow(10,i))+ ans;
-        m=m>>1;
+        m=m%2;
         i++;
     }
     int d=ans;
